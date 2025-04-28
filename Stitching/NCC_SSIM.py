@@ -93,8 +93,8 @@ def calculate_rmse_cv2(img1, img2):
 
 
 # Load images as grayscale (keep original depth)
-img1 = cv2.imread(r"D:\PhD\ImagesBefore28\Stitch2x2\BQ1_stitched\h4_gt_c.tif", cv2.IMREAD_UNCHANGED)  # Load as is (12-bit)
-img2 = cv2.imread(r"D:\PhD\ImagesBefore28\Stitch2x2\BQ1_stitched\h4_impro.tif", cv2.IMREAD_UNCHANGED)
+img1 = cv2.imread(r"ref_image.tif", cv2.IMREAD_UNCHANGED)  # Load as is (12-bit)
+img2 = cv2.imread(r"stitched_img.tif", cv2.IMREAD_UNCHANGED)
 
 
 rmse_value = calculate_rmse_cv2(img1, img2)
