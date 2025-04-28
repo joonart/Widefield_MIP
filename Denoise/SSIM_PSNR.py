@@ -31,8 +31,8 @@ def compute_metrics(original, denoised):
 
 def main():
     # Define image paths (Update as per your system)
-    original_image_path = r"D:\PhD\Paper2\Data for paper\Noise\Frame_averaging\PETcryo\On_resonance\Favg3_good\Clean,256,256,128,157.tif"
-    denoised_image_path = r"D:\PhD\Paper2\Data for paper\Noise\Frame_averaging\PETcryo\On_resonance\Favg3_good\100_frames_nlmeans.tif"
+    original_image_path = r"path_clean_img.tif"
+    denoised_image_path = r"path_denoised_img.tif"
     
     try:
         # Load images
