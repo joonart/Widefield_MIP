@@ -12,7 +12,7 @@ ptImagesFolder = fullfile(folderPath, 'PT_images4_C_');
 
 eachPTimgSize = 126;  % size of pt images, Size to cut from photothermal images
 %overlappingRegion = 50; % percentage of overlap between images
-featureSearchArea = 44; % percentage of overlap between images
+featureSearchArea = 40; % percentage of overlap between images
 pixelSizeofImg = 0.176; % in micrometer
 distanceMoved = 21 ; % in micrometer
 
